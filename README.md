@@ -15,7 +15,7 @@ Moreover, jsonapi.org becomes too complex. We call it jsonapi for Zergs. In our 
 2. Resource names in plural. For example, "users", "orders", "posts" etc.
 3. Field names in camelCase
 4. Date and time in ISO8601 UTC. For example, "2015-04-02T14:20Z". Dates without time look like "2015-04-02".
-5. Enumarable alwais in upper case. For example, userRole: "ADMIN", "MODERATOR", "CUSTOMER"
+5. Enumarable always in upper case. For example, userRole: "ADMIN", "MODERATOR", "CUSTOMER"
 6. Every return object contains "id" field. Value of "id" is always represented as string. (to avoid problems with numeric types representations)
 7. All links to related objects are located in "links" section. Every link has collection name ("type" field) and object identifier ("id").  IMPORTANT: links should not conflict with attributes name of base object.
 
